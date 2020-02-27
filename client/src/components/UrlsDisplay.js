@@ -56,7 +56,6 @@ const Urls = () => {
                                     {url._id}
                                 </td>
                                 <td>
-                                    <button>Copy</button>
                                     <button className={styles.btnD} onClick={() => handleDelete(url._id)}>Delete</button>
                                 </td>
                             </tr>
