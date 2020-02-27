@@ -66,10 +66,7 @@ module.exports = {
             "shortUrl": strGen(),
         })
             .then((result) => res.json(result))
-            // .then(console.log(req.body.shortUrl))
-            // .then(console.log(req.body.longUrl))
             .catch(err => res.status(400).json(err))
-            // console.log(req.body)
     },
 
     redirectUrl(req, res) {
@@ -85,8 +82,6 @@ module.exports = {
         })
         .catch(err => res.json(err))
     },
-
-    // undefined means that a variable has been declared but has not yet been assigned a value
 }
 
 
